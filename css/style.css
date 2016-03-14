@@ -9,6 +9,7 @@ body {
 }
 
 header {
+  font-family: "lato",monospace;
   margin: 0 auto;
   width: 1000px;
   background-image: url(../images/flag.jpg);
@@ -16,6 +17,7 @@ header {
 }
 
 header h1 {
+  font-family: "lato",monospace;
   text-align: center;
   margin: 0;
   padding-top: .25em;
@@ -23,6 +25,7 @@ header h1 {
 }
 
 header h2 {
+  font-family: "lato",monospace;
   text-align: center;
   margin: 0;
   padding-bottom: 1em;
@@ -30,6 +33,7 @@ header h2 {
 }
 
 h3 {
+  font-family: "lato",monospace;
   margin: 0;
   margin-top: 10px;
   margin-bottom: 5px;
@@ -37,11 +41,13 @@ h3 {
 }
 
 p {
+
   margin: 0;
   margin-bottom: 10px;
 }
 
 nav {
+  font-family: "Alike",monospace;
   margin: 0 auto;
   width: 1000px;
   padding: 5px 0;
@@ -53,6 +59,10 @@ nav {
 nav a {
   margin: 0 35px;
   color: #2a3178;
+}
+
+ul {
+  list-style-image: url(../images/star.png);
 }
 
 .floatright {
